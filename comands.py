@@ -10,7 +10,7 @@ def thread(fn):
         Thread(target=fn, args=args, kwargs=kwargs).start()
     return execute
 
-Token = '1025274697:AAF2Bxjy7NNvYSHR-YwyFCg3f5ymeyr2-TE'
+Token = 'your_token'
 
 URL = "https://api.telegram.org/bot{}/".format(Token)
 
